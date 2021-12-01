@@ -1,0 +1,52 @@
+
+    // colors
+
+    $primary-color: #FFFFFF;
+    $secondary-color: #458FF6;
+    $secondary-color-light: #64BAF3;
+
+    $logo-color-dark: #233348;
+
+    $text-color: #000;
+    $text-color-dark: #1F1534;
+    $text-color-lighter: #7D7987;
+    $text-color-light: #FFFFFF; 
+
+    $background-gradient: linear-gradient(180deg, #67C3F3 0%, #5A98F2 100%);
+
+    $shadow-box: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.020),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.020),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.030);
+
+    // fonts
+
+    $font-weights: (
+        "S" : 100,
+        "M"  : 300,
+        "L"    : 500,
+    );
+
+    $line-heights: (
+        "XS" : 2.8rem,
+        "S" : 3.0rem,
+        "M"  : 3.6rem,
+        "L"   : 4.8rem,
+        "XL"  : 5.6rem,
+    );
+
+    $font-sizes: (
+        "small-text" : 1.6rem,
+        "medium-text": 1.8rem,
+        "large-text": 2.2rem,
+
+        "arrows" : 3.0rem,
+        
+        "small-title": 2.4rem,
+        "medium-title" : 2.6rem,
+        "large-title" : 3.6rem,
+        "xlarge-title" : 4.8rem,
+    );
+
+    // media query
+

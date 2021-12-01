@@ -1,0 +1,58 @@
+
+/* 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+*/
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: weight(S);
+    font-size: size(medium-text);
+    cursor: pointer;
+    color: $text-color-lighter;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+//fonts
+
+h1 {
+    font-size: size(xlarge-title);
+    line-height: line(XL);
+    color: $text-color;
+    margin: 0.5em 0;
+}
+
+h2 {
+    font-size: size(large-title);
+    line-height: line(XL);
+    color: $text-color;
+    margin: 0.5em 0;
+}
+
+h3 {
+    font-size: size(small-title);
+    line-height: line(M);
+    color: $text-color;
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: size(medium-text);
+    font-weight: weight(S);
+    line-height: line(S);
+    margin: 0.5em 0;
+}
+

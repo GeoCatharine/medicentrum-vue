@@ -1,30 +1,61 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+    <TopNav v-show="!checkWindow"/>
+    <BurgerNav v-show="checkWindow"/>
+    <router-view />
+    <Footer v-show="!checkWindow"/>
+    <BurgerFooter v-show="checkWindow"/>
   </div>
-  <router-view/>
 </template>
+<script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+import Footer from './components/Footer'
+import TopNav from './components/TopNav'
+import BurgerNav from './components/BurgerNav'
+import BurgerFooter from './components/BurgerFooter'
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+export default {
+  data () {
+    return {
+      windowWidth: window.innerWidth,
+      small: 950
+    }
+  },
+  components: {
+    Footer,
+    TopNav,
+    BurgerNav,
+    BurgerFooter
+  },
+  computed: {
+    checkWindow () {
+      return this.windowWidth <= this.small
+    }
+  },
+  created () {
+    window.addEventListener('resize', this.handleResize)
+    this.handleResize()
+  },
+  unmounted () {
+    window.removeEventListener('resize', this.handleResize)
+  },
+  methods: {
+    handleResize () {
+      this.windowWidth = window.innerWidth
     }
   }
 }
+</script>
+
+<style lang="scss">
+#app {
+  font-family: 'Roboto', sans-serif;
+  color: #7D7987;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
 </style>

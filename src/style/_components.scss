@@ -1,0 +1,78 @@
+
+// logo
+
+.nav-logo {
+    font-size: size(medium-title);
+    font-weight: weight(L);
+    color: $logo-color-dark;
+    margin-left: 2.0rem;
+}
+
+.ball {
+    display: inline-block;
+    border-radius: 50%;
+    width: 4.1rem;
+    height: 4.1rem;
+    text-align: center;
+    font-size: size(medium-title);
+    font-weight: weight(L);
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+}
+
+.ball-dark {
+    background-color: $secondary-color;
+    color: $text-color-light;
+}
+
+.ball-light {
+    background-color: $primary-color;
+    color: $secondary-color-light;
+}
+
+// divider element
+
+.break {
+    background-color: #000;
+    width: 5.6rem;
+    height: 0.2rem;
+}
+
+// buttons
+
+.btn {
+    border-radius: 3.0rem;
+    font-size: size(medium-text);
+    font-weight: weight(M);
+    width: 20.1rem;
+    height: 6.0rem;
+    line-height: 6.0rem;
+    text-align: center;
+    padding: 2.0rem 5.0rem;
+    cursor: pointer;
+}
+
+.btn-light {
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: 0.2rem solid $secondary-color;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: $primary-color;
+    } 
+}
+
+.btn-progress {
+    background-color: $secondary-color;
+    color: $primary-color;
+    padding: 2.0rem 5.0rem;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border: 0.2rem solid $secondary-color;
+    }
+}
+
+
