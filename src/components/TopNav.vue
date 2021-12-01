@@ -2,7 +2,7 @@
     <div class="nav">
     <div class="logo">
       <div class="ball ball-dark">M</div>
-        <a href="#" class="nav-logo">MediCentrum</a>
+        <router-link to="/" class="nav-logo">MediCentrum</router-link>
     </div>
     <div class="nav-links">
       <router-link to="/">Home</router-link>

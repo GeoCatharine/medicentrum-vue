@@ -91,7 +91,7 @@
 
   .jumbo-dots {
     position: absolute;
-    left: -2.9em;
+    left: -3.9em;
     top: -4.3em;
     z-index: -99;
   }

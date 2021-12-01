@@ -10,7 +10,12 @@
 */
 
 html {
-    font-size: 10px;
+    font-size: 12px;
+
+    @media screen and (min-width: 1401) {
+        font-size: 16px;
+    }
+
 }
 
 a {
