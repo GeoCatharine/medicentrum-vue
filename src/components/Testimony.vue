@@ -39,6 +39,7 @@ export default {
 .top-part {
   position: relative;
   text-align: center;
+  width: 100%;
 
   h2 {
     color: $primary-color;
@@ -75,33 +76,55 @@ export default {
 
 .bottom-part {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  margin: 3rem 3rem;
+  width: 100%;
+  justify-content: space-around;
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+
+  @include for-ultrawide {
+    padding: 4rem 1rem;
+  }
+
+  @include for-UltraHD {
+    padding: 4rem 10rem;
+  }
+
+  @include for-HD {
+    padding: 5rem 2rem;
+  }
 
   @include for-small-desktop {
     flex-direction: column;
     align-items: center;
-    margin: 5rem 3rem;
   }
 
   @include for-phone-only {
-    margin: 2rem 3rem;
   }
 
   .profile {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 40%;
 
     @include for-tablet-portrait {
       flex-direction: column;
       text-align: center;
     }
+
+    @include for-small-desktop {
+      width: 80%;
+      justify-content: center;
+
+    }
   }
 
   .user-textbox {
     width: 40%;
+    box-sizing: border-box;
+    height: 100%;
+    min-width: 40ch;
 
     @include for-small-desktop {
       width: 80%;
@@ -137,12 +160,30 @@ export default {
   }
 
   position: relative;
-  width: 138px;
-  height: 138px;
   border-radius: 50%;
   border: $primary-color 5px solid;
   margin-right: 2rem;
   background-color: $primary-color;
+
+  @include for-ultrawide {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  @include for-UltraHD {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  @include for-HD {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  @include for-big-desktop {
+    width: 13rem;
+    height: 13rem;
+  }
 
   @include for-tablet-portrait {
     margin-right: 0;

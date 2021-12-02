@@ -89,6 +89,7 @@ export default {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
   }
 }
 
@@ -97,12 +98,24 @@ export default {
 .container {
   padding: 5rem 19rem;
 
+  @include for-ultrawide {
+    padding: 5rem 9rem;
+  }
+
+  @include for-UltraHD {
+    padding: 4rem 0;
+  }
+
+  @include for-HD {
+    padding: 5rem 1.5rem;
+  }
+
   @include for-big-desktop { //1400
-    padding: 2.5rem 9rem;
+    padding: 2.5rem 0;
   }
 
   @include for-desktop {  // 1100
-    padding: 5rem 4rem;
+    padding: 2.5rem 4rem;
   }
 
   @include for-phone-only {
@@ -121,6 +134,10 @@ export default {
   margin: 0 auto;
   overflow: hidden;
   height: 30rem;
+
+  @include for-ultrawide{
+    height: 35rem;
+  }
 
   @include for-desktop {  // 1100
     width: 90%;

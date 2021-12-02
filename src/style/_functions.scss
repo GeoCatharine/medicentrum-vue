@@ -32,3 +32,15 @@
   @mixin for-big-desktop {
     @media (max-width: 1400px) { @content; }
   }
+
+  @mixin for-HD {
+    @media (max-width: 1700px) { @content; }
+  }
+
+  @mixin for-UltraHD {
+    @media (max-width: 2500px) { @content; }
+  }
+
+  @mixin for-ultrawide {
+    @media (max-width: 3000px) {@content; }
+  }

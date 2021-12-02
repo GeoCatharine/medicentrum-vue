@@ -38,7 +38,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding: 5rem 8rem;
+  padding: 5rem 19rem;
 
   @include for-big-desktop {
     padding: 5rem 8rem;

@@ -10,12 +10,22 @@
 */
 
 html {
-    font-size: 12px;
 
-    @media screen and (min-width: 1401) {
-        font-size: 16px;
+    @include for-ultrawide {
+        font-size: 20px;
     }
 
+    @include for-UltraHD {
+        font-size: 13px;
+    }
+
+    @include for-HD {
+        font-size: 14px;
+    }
+
+    @include for-big-desktop {
+        font-size: 10px;
+    }
 }
 
 a {

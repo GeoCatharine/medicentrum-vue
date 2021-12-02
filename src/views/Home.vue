@@ -79,7 +79,7 @@
 
 .jumbotron {
   position: relative;
-  padding: 5rem 19rem;
+  padding: 5rem 10rem;
 
   @include for-big-desktop { //1400
     padding: 5rem 9rem;
