@@ -1,7 +1,7 @@
 <h1># Medicentrum in Vue</h1>
 <br />
 <p>Free Figma design created with vue and scss, as part of training. All pictures and design idea belongs to Figma & their creator.
-I divided content from previous exercise into multiple pages. Main goal of this exercise was full use of vue routing, creating responsive design & better understanding of scss mixins & functions.</p>
+I divided content from previous exercise into multiple pages. Main goal of this exercise was to re-write base code from html & css to Vue & scss. Also get a full use of vue routing, creating responsive design & better understanding of scss mixins & functions.</p>
 <br />
 <h3>Added:</h3>
 <br />
