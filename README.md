@@ -17,4 +17,5 @@ I divided content from previous exercise into multiple pages. Main goal of this 
 <br />
 <h4>Preview of testimony carousel:</h4>
 <br />
-![preview of testimony carousel](https://user-images.githubusercontent.com/76999282/148051234-8ef919c3-bbb2-416a-91d3-b1cae00fd4b2.png)
+
+![medicentrum](https://user-images.githubusercontent.com/76999282/148052391-e81a87c6-6e87-4668-a02b-2935b1ea761e.png)
