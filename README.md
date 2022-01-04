@@ -14,7 +14,6 @@ I divided content from previous exercise into multiple pages. Main goal of this 
   <li>scss mixins, function & variables</li>
 </ul>
 <br />
-<br />
 <h4>Preview of testimony carousel:</h4>
 <br />
 
