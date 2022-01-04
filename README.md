@@ -1,23 +1,20 @@
-Medicentrum in Vue
-
-Free Figma design created with vue and scss, as part of training. All pictures and design idea belongs to Figma & their creator.
-I divided content from previous exercise into multiple pages. Main goal of this exercise was full use of vue routing, creating responsive design & better understanding of scss mixins & functions.
+<h1># Medicentrum in Vue</h1>
 <br />
-Added:
+<p>Free Figma design created with vue and scss, as part of training. All pictures and design idea belongs to Figma & their creator.
+I divided content from previous exercise into multiple pages. Main goal of this exercise was full use of vue routing, creating responsive design & better understanding of scss mixins & functions.</p>
 <br />
--router
+<h3>Added:</h3>
 <br />
--carousel testimony box
-<br />
--responsive design
-<br />
--animated burger menu & footer menu
-<br />
--data fetching for testimony box
-<br />
--scss mixins, functions & variables
+<ul>
+  <li>router</li>
+  <li>carousel testimony box</li>
+  <li>responsive design</li>
+  <li>animated burger menu & footer menu</li>
+  <li>data fetching for testimony box</li>
+  <li>scss mixins, function & variables</li>
+</ul>
 <br />
 <br />
-
-Preview of testimony carousel:
+<h4>Preview of testimony carousel:</h4>
+<br />
 ![preview of testimony carousel](https://user-images.githubusercontent.com/76999282/148051234-8ef919c3-bbb2-416a-91d3-b1cae00fd4b2.png)
